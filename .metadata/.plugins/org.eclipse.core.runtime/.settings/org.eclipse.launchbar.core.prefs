@@ -1,0 +1,14 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:TestMac,org.eclipse.launchbar.core.descriptorType.default\:Tomcat v8.5 Server at localhost,org.eclipse.launchbar.core.descriptorType.default\:TestHello,org.eclipse.launchbar.core.descriptorType.default\:FirstCplus,org.eclipse.launchbar.core.descriptorType.default\:EightQueen,org.eclipse.launchbar.core.descriptorType.default\:test,org.eclipse.launchbar.core.descriptorType.default\:Sorting,org.eclipse.launchbar.core.descriptorType.default\:Temp
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:EightQueen/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:EightQueen/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Sorting/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Sorting/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Temp/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:TestHello/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:TestHello/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:TestMac/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:TestMac/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

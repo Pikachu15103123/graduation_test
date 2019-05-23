@@ -1,0 +1,12 @@
+
+public class Node {
+	
+	String x-request-id;
+    String x-b3-traceid;
+    String x-b3-spanid;
+    String x-b3-parentspanid;
+    String x-b3-sampled;
+    String x-b3-flags;
+    String x-ot-span-context;
+
+}

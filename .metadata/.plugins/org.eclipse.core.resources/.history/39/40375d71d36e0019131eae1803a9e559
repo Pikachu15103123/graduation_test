@@ -1,0 +1,28 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Node { // span node
+	
+	String x_request_id;
+    String x_b3_traceid;
+    String x_b3_spanid;
+    String x_b3_parentspanid;
+    String x_b3_sampled;
+    String x_b3_flags;
+    String x_ot_span_context;
+    
+    String tagString;
+    String keyValue;
+    Map map = new HashMap<>();
+    
+    public void setTag(String tagString,String keyValue) {
+    	this.tagString = tagString;
+    	this.keyValue = keyValue;
+    	map.put(this.tagString, this.keyValue);
+    }
+    
+    pubic void printTag() {
+    	
+    }
+
+}

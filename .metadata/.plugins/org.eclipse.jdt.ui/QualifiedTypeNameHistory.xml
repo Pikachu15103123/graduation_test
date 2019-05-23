@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="io.opentracing.tag.Tags"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="com.sun.jmx.snmp.Timestamp"/>
+<fullyQualifiedTypeName name="java.util.Timer"/>
+<fullyQualifiedTypeName name="java.util.TimerTask"/>
+<fullyQualifiedTypeName name="io.opentracing.mock.MockSpan"/>
+<fullyQualifiedTypeName name="io.opentracing.SpanContext"/>
+<fullyQualifiedTypeName name="io.opentracing.propagation.Format"/>
+<fullyQualifiedTypeName name="io.opentracing.propagation.TextMap"/>
+<fullyQualifiedTypeName name="io.opentracing.propagation.Format.Builtin"/>
+<fullyQualifiedTypeName name="com.google.common.collect.ImmutableMap"/>
+<fullyQualifiedTypeName name="HelloOpenTracing"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="Node"/>
+<fullyQualifiedTypeName name="NodeDriverTest"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+</qualifiedTypeNameHistroy>

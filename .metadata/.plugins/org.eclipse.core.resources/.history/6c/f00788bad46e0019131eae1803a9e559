@@ -1,0 +1,12 @@
+
+public class NodeDriverTest {
+
+	public static void main(String args[]) {
+		Node node = new Node();
+		node.setTag("1", "Durant");
+		node.setTag("2", "KD");
+		
+		System.out.println(node.map);
+	}
+		
+}

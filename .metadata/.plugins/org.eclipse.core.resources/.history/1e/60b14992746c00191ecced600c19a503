@@ -1,0 +1,43 @@
+
+import com.google.common.collect.ImmutableMap;
+
+import io.jaegertracing.internal.JaegerTracer;
+import io.opentracing.Span;
+import io.opentracing.Tracer;
+//import lib.Tracing;
+
+public class HelloOpenTracing {
+
+	private final Tracer tracer; // 来自Opentracing的开发接口Tracer,里面有SpanBuilder初始化Span的attribute
+
+	public HelloOpenTracing(Tracer tracer) {
+		this.tracer = tracer;
+	}
+
+	private void sayHello(String helloTo) {
+		Span span = tracer.buildSpan("sayHello").start();
+		span.setTag("hello-to", helloTo); // 设置span的tag标签
+
+		String helloStr = String.format("Hello, %s!", helloTo);
+		span.log(ImmutableMap.of("event", "string-format", "value", helloStr));
+
+		System.out.println(helloStr);
+		span.log(ImmutableMap.of("event", "println"));
+
+		span.finish();
+	}
+
+	public static void main(String[] args) {
+		if (args.length != 1) {
+			throw new IllegalArgumentException("Expecting one argument");
+		}
+
+		String helloTo = args[0];
+		try (JaegerTracer tracer = Tracing.init("Hello-Opentracing")) {
+			for(int i=0;i<1000000;i++) {
+			new HelloOpenTracing(tracer).sayHello(helloTo);
+			}
+			//new HelloOpenTracing(tracer).sayHello(helloTo);
+		}
+	}
+}

@@ -1,0 +1,38 @@
+
+public class NodeDriverTest {
+	Node firstNode;
+	Node lastNode;
+	
+	public void addNode(Node node) {
+		if(firstNode == null) {
+			firstNode = node;
+			lastNode = node;
+		}else {
+			lastNode.nextNode = node;
+			lastNode = node;
+		}
+	}
+	
+	public void printAllNode() {
+		while(firstNode!=null) {
+			
+		}
+	}
+	public static void main(String args[]) {
+		Node node1 = new Node();
+		//node.setTag("1", "Durant");
+		//node.setTag("2", "KD");
+		Node node2 = new Node();
+		Node node3 = new Node();
+		Node node4 = new Node();
+		
+		NodeDriverTest nodeDriverTest = new NodeDriverTest();
+		nodeDriverTest.addNode(node1);
+		nodeDriverTest.addNode(node2);
+		nodeDriverTest.addNode(node3);
+		nodeDriverTest.addNode(node4);
+		
+		System.out.println(node.map);
+	}
+		
+}
